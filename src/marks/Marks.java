@@ -16,6 +16,8 @@ public class Marks {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Tasks jegyek = new Tasks();
+        jegyek.readFromFile("be.txt");
     }
     
 }
